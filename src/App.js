@@ -1,18 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import  Home  from './components/Home';
-
-import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import './resources/css/main.css';
-import Welcome from './components/Welcome';
+import Example from './components/Example/Example';
+import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <Home/>
-      <Welcome/>
-      React app
+    <div style={{textAlign: 'center'}}>
+        <div style={{marginTop:10}}>
+            <Example/>
+        </div>
     </div>
   );
 }
