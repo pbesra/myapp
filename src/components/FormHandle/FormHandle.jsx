@@ -26,7 +26,6 @@ const FormHandle = ({ children }) => {
             }
         });
     const onSubmitForm = data => console.log(data);
-    console.log(errors);
     return (
         <>
             <div>
